@@ -42,4 +42,6 @@ function promptMe(){
 
 }
 
+greeting();
+
 // the tolowercase in the prompt for incorrect answers doesnt work // 
