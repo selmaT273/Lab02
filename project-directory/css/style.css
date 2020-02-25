@@ -1,0 +1,40 @@
+*{
+    background-color: lightgrey;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    float: left;
+}
+
+body {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+p {
+    padding-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
