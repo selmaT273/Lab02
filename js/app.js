@@ -1,6 +1,6 @@
 'use strict';
 
-window.addEventListener('load', (event) => {
+// window.addEventListener('load', (event) => {
 function greeting(){
 var name = prompt('Hello there! What is your name?');
   alert('Nice to meet you, ' + name + '! This page should help you get to know a little more about me. When you are done reading, feel free to take the quiz at the bottom of the page.');
@@ -9,10 +9,9 @@ var name = prompt('Hello there! What is your name?');
 
 
 function promptMe(){
-  var question1 = prompt('Do I have 4 children?');
-  var lcrp1 = question1.toLowerCase();
-  while (lcrp1 !== 'no') {
-    question1 = prompt('Try again. Do I have 4 children?');
+  var question1 = prompt('Do I have 4 children?').toLowerCase();
+  while (question1 !== 'no') {
+    question1 = prompt('Try again. Do I have 4 children?').toLowerCase();
   } 
 
   var question2 = prompt('Correct! Next question... Did I move to Cedar Rapids in 2011?').toLowerCase();
@@ -46,6 +45,6 @@ function promptMe(){
 
 greeting();
 
-}
+// });
 
-// the tolowercase in the prompt for incorrect answers doesnt work // 
+// the tolowercase in the prompt for incorrect answers doesnt work //
