@@ -50,9 +50,15 @@ footer {
 
 #topten {
     float: left;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 20px;
 
 }
 
 #jobhistory {
     float: right;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 20px;
 }

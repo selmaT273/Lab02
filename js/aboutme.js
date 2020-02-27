@@ -1,7 +1,7 @@
 'use strict';
 
 var attempts = 3;
-// var userPoints = 0;
+var userPoints = 0;
 // var attemptsExt = 0;
 // var restaurants = ['La Vecina', 'Marquee', 'Pullmans', 'Farmers and Distillers', 'Crabcake Factory'];
 
@@ -14,7 +14,8 @@ function promptQuiz(){
 
             alert('Correct!');
             attempts = 0;
-
+            userPoints++;
+            console.log(userPoints);
         }
         if(question6Num > guessNum){
             question6Num = Number(prompt('Too high. Try again.'));
