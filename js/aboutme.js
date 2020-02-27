@@ -5,7 +5,7 @@ var attempts = 3;
 // var attemptsExt = 0;
 // var restaurants = ['La Vecina', 'Marquee', 'Pullmans', 'Farmers and Distillers', 'Crabcake Factory'];
 
-// // function promptQuiz(){
+function promptQuiz(){
 var question6 = prompt('How many places have I worked?');
 var question6Num = Number(question6);
 
@@ -27,11 +27,4 @@ while (attempts > 0){
         question6Num = prompt('Too low. Try again.');
         attempts--;
     }
-}  
-    
-
-        
-        
-
-
-
+}}
