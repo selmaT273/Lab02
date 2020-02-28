@@ -37,9 +37,9 @@ function question6() {
 }
 
 function question7() {
-    var restaurants = ['La Vecina', 'Marquee', 'Pullmans', 'Farmers and Distillers', 'Crabcake Factory', 'Clinton Street Social Club', 'Rapid Creek Cidery', 'Moniker 86 Social Club', 'Exotic India', 'Brix Wine Bar'];
+    var restaurants = ['la vecina', 'marquee', 'pullmans', 'farmers and distillers', 'crabcake factory', 'clinton street social club', 'rapid creek cidery', 'moniker 86 social club', 'exotic india', 'brix wine bar'];
     while (attemptsExt < 6) {
-        var favRes = prompt('What is one of my favorite restaurants?');
+        var favRes = prompt('What is one of my favorite restaurants?').toLowerCase();
         for (var i = 0; i < restaurants.length; i++) {
             console.log(i);
             if (favRes === restaurants[i]) {
