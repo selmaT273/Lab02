@@ -1,34 +1,49 @@
 *{
-    background-color: lightgrey;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    color: #4b4946;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Lora' ;
 }
-
-img {
-    float: left;
+header {
+    padding-top: 0px;
 }
-
+#logo {
+    text-align: center;
+    
+    
+}
 body {
     margin: 0 auto;
     padding: 30px;
 }
 
+nav ul {
+    text-align: center;
+    /* background-color: white; */
+}
+
+a { 
+    text-decoration: none;
+}
+
 nav li {
     display: inline-block;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-right: 10px;
-    margin-left: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: 'Lora' ;
+    font-weight: bold;
 
 }
 
 main {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 2px;
     text-align: center;
-    line-height: 30px;
+    line-height: 23px;
+    /* background-color: blue; */
 
 }
 
@@ -50,15 +65,15 @@ footer {
 
 #topten {
     float: left;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 1px solid;
-    padding: 20px;
+    padding: 10px;
 
 }
 
 #jobhistory {
     float: right;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 1px solid;
-    padding: 20px;
+    padding: 10px;
 }
