@@ -16,7 +16,6 @@ function question6() {
 
     while (attempts > 0) {
         if (question6Num === guessNum) {
-
             alert('Correct!');
             attempts = 0;
             userPoints++;
@@ -61,5 +60,5 @@ function question7() {
 }
 
 function alertScore() {
-    alert('Congratulations! You have ' + userPoints + ' points.');
+    alert('Congratulations! You got ' + userPoints + ' points on this quiz.');
 }

@@ -1,5 +1,7 @@
 'use strict';
 
+var userPoints = 0;
+
 // window.addEventListener('load', (event) => {
 function greeting(){
 var name = prompt('Hello there! What is your name?');
@@ -14,6 +16,7 @@ function promptMe(){
   question3prompt();
   question4prompt();
   question5prompt();
+  alertScore();
 }
 
 function question1prompt(){
@@ -21,6 +24,8 @@ function question1prompt(){
   while (question1 !== 'no') {
     question1 = prompt('Try again. Do I have 4 children?').toLowerCase();
   } 
+  userPoints++;
+  console.log(userPoints);
 }
 
 function question2prompt(){
@@ -28,6 +33,7 @@ function question2prompt(){
   while (question2 !== 'yes') {
     question2 = prompt('Try again. Did I move to Cedar Rapids in 2011?').toLowerCase();
   }
+  userPoints++;
 }
 
 function question3prompt(){
@@ -35,6 +41,7 @@ function question3prompt(){
   while (question3 !== 'no') {
     question3 = prompt('Try again. Did I receive my degree in Economics?').toLowerCase();
   }
+  userPoints++;
 }
 
 function question4prompt(){
@@ -42,6 +49,7 @@ function question4prompt(){
   while (question4 !== 'yes') {
     question4 = prompt('Try again. Did I work as a sign language interpreter after graduating college?').toLowerCase();
   }
+  userPoints++;
 }
 
 function question5prompt(){
@@ -49,11 +57,14 @@ function question5prompt(){
   while (question5 !== 'yes') {
     question5 = prompt('Try again. Is one of my favorite shows The Office?').toLowerCase();
   }
+  userPoints++;
 }
 
+function alertScore() {
+  alert('Congratulations! You got ' + userPoints + ' points on this quiz.');
 
 
-
+}
 
 
 
